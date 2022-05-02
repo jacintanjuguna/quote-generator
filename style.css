@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;1,200;1,400&display=swap');
+body {
+    background-color: rgb(131, 218, 31);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mali', cursive;
+}
+
+.container {
+    width: 95%;
+    height: 100vh;
+    margin-top: auto;
+    display: flex;
+}
+
+.quote-wrapper {
+    border: 1px solid rgb(205, 229, 210);
+    border-radius: 20px;
+    width: 90%;
+    min-height: 400px;
+    margin: auto;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+    color: rgb(64, 86, 88);
+    background-color: #fff;
+}
+
+.quote-wrapper h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.quote-wrapper small {
+    font-weight: 700;
+    padding: 0.2rem 1rem;
+    color: rgb(130, 137, 135);
+    text-transform: capitalize;
+}
+
+.quote-wrapper blockquote {
+    padding: 1rem 0;
+    font-weight: 300;
+}
+
+.quote-wrapper cite {
+    display: block;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+
+.btn-info {
+    cursor: pointer;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.7rem 1.2rem;
+    outline: 0;
+}
+
+.btn-info :hover {
+    background-color: rgb(144, 252, 203);
+}
+
+@media screen and (min-width:680px) {
+    .quotes-wrapper {
+        width: 600px;
+    }
+}
